@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def square_array(array)
   squared_array = []
@@ -7,8 +7,7 @@ def square_array(array)
     squared_array << number ** 2
   end
   
-  return squared_array  
-  binding.pry 
+  return squared_array
 end
 
 
